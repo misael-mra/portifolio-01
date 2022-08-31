@@ -2,6 +2,7 @@
 
 :root{
     --color-grey: #f7f7f7;
+    --color-grey2:#616060;
     --color-white:#fff;
     --color-black-footer:#444;
     --color-black-header:#18183a;
@@ -13,6 +14,7 @@
 * {
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -106,8 +108,13 @@ a{
 .h2-seguros{
     display: block !important;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     padding: 80px;
+    color: var(--color-black-header);
+}
+
+.section-seguros{
+    background-color: var(--color-grey);
 }
 
 .grade-seguros{
@@ -117,32 +124,37 @@ a{
 }
 
 .a-seguros{
-    width: 30%;
+    width: 25%;
     background-color: var(--color-grey);
     padding: 1%;
+    justify-content: center;
+    box-shadow: 0 0 1em var(--color-black-header);
+    margin-bottom: 100px;
 }
 
 #img-seguro-auto{
-    width: 100px;
+    width: 60%;
 }
 
 .icon-seguros{
     display: flex;
     align-items: center;
-    vertical-align: middle;
-    background-color: #008f00;
+    background-color: #027302;
     width: 30%;
     border-radius: 10px;
-    padding: 15px 10px 15px 15px;
+    padding: 10px;
 }
 
 .titulo-seguros{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
-    padding: 8%;
+    padding: 6%;
+    color: var(--color-black-header);
 }
 
 .subtitulo-seguros{
-    text-align: justify;
+    text-align: center;
     font-size: 14px;
+    color: #99a1ba;
 }
