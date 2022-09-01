@@ -9,6 +9,7 @@
     --color-green-bnt: #0aa74b;
     --color-green-bnt-whatsapp:#26d366;
     --color-blue:#2c78bc;
+    --color-blackshadow:#c8c8cd;
 }
 
 * {
@@ -128,7 +129,7 @@ a{
     background-color: var(--color-grey);
     padding: 1%;
     justify-content: center;
-    box-shadow: 0 0 1em var(--color-black-header);
+    box-shadow: 0 0 1em var(--color-blackshadow);
     margin-bottom: 100px;
 }
 
