@@ -25,10 +25,13 @@ body{
     background-repeat: no-repeat;
     background-attachment: scroll; 
     background-size: 535px; 
+    max-width: 1280px;
+    min-width: 320px;
 }
 
 .logo-header{
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
 }
 
 .header{
@@ -41,6 +44,11 @@ body{
     font-weight: bold;
     color: var(--color-black-header);
 }
+
+/* MENU RESONSIVO */
+
+
+/* MENU RESONSIVO */
 
 .navigation a{
     text-decoration: none;
@@ -79,19 +87,20 @@ body{
     display: flex;
     align-items: center;
     flex-flow: row;
-    width: 90%;
+    width: 100%;
     margin-top: 30px;
     color: #18183a;
     justify-content: center;
 }
 
 .img-home{
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     vertical-align: middle;
 }
 
 .colun-home{
-    width: 45%;
+    width: 50%;
     font-size: 40px;
     font-weight: bold;
     text-align: left;
